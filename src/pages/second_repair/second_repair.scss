@@ -1,0 +1,27 @@
+.top-bar {
+  /* prettier-ignore */
+  font-size: 12PX;
+  height: 150px;
+  background: #000;
+  display: flex;
+  color: #fff;
+  text-align: center;
+  .top-bar-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.active {
+      color: yellow;
+    }
+  }
+}
+.repair-item-container {
+  .repair-item {
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid #ccc;
+    color: #aaa;
+    padding-left: 20px;
+  }
+}
